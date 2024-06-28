@@ -1,0 +1,132 @@
+.job-preview-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    margin: 0 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.profile-icon {
+    font-size: 24px;
+    background: #0073e6;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.job-preview {
+    margin-top: 20px;
+}
+
+.job-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.job-info,
+.job-status {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.skills-required,
+.job-details,
+.about-job,
+.benefits,
+.schedule,
+.supplemental-pay,
+.work-location {
+    margin-top: 20px;
+}
+
+.job-details h2,
+.skills-required h2,
+.about-job h2,
+.benefits h2,
+.schedule h2,
+.supplemental-pay h2,
+.work-location h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills-required ul,
+.about-job ul,
+.benefits ul,
+.supplemental-pay ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.job-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.job-actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-job-button {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.edit-job-button {
+    background-color: #0073e6;
+    color: white;
+}
+
+.job-stats {
+    margin-top: 20px;
+}
+
+.company-info {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.company-logo {
+    font-size: 32px;
+    background: #0073e6;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.company-details p {
+    margin: 5px 0;
+}
